@@ -281,7 +281,7 @@ section.success a.active {
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
-    padding-bottom: .5em;
+    padding-bottom: .4em;
     border-bottom: 1px solid #eee;
 }
 
@@ -393,4 +393,8 @@ footer .footer-below {
 
 .scroll-top .btn:focus {
     outline: 0;
+}
+
+.flatly-custom .btn-lg, .btn-group-lg>.btn {
+    padding: 15px 25px;
 }
