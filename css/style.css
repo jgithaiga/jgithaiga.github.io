@@ -40,6 +40,7 @@ h6 {
     font-weight: 700;
 }
 
+hr,
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -86,7 +87,12 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #72c02c;
+    /*background: #72c02c;*/
+    background: url(../img/header.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header .container {
@@ -114,7 +120,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 180px;
         padding-bottom: 100px;
     }
 
