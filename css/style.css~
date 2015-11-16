@@ -19,14 +19,14 @@ p.small {
 
 a {
     outline: 0;
-    color: #40826D;
+    color: #008080;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #40826D !important;
+    color: #008080 !important;
 }
 
 h1,
@@ -68,7 +68,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #40826D;
+    background-color: #008080;
 }
 
 hr.star-primary {
@@ -87,7 +87,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    /*background: #40826D;*/
+    /*background: #008080;*/
     background: url(../img/header.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -182,7 +182,7 @@ header .intro-text .skills {
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #40826D;
+    color: #008080;
 }
 
 section {
@@ -196,17 +196,17 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #40826D; /* #18bc9c; */
+    background: #008080; /* #18bc9c; */
 }
 
 .text-success {
-    color: #40826D;
+    color: #008080;
 }
 
 .btn-success {
     color: #ffffff;
-    background-color: #40826D;
-    border-color: #40826D;
+    background-color: #008080;
+    border-color: #008080;
 }
 
 section.success a,
@@ -299,7 +299,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #40826D;
+    color: #008080;
     background: #fff;
 }
 
@@ -352,7 +352,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #40826D;
+    color: #008080;
 }
 
 form .row:first-child .floating-label-form-group {
