@@ -10,64 +10,6 @@ body {
     font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/*.site-header {
-    color: #fff;
-}
-
-.site-header a.navbar-brand {
-    color: #fff;
-}
-
-nav.site-header {
-    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0!important;
-    padding: 20px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.site-header li {
-    margin: 0 7px!important;
-}
-
-.site-header li a {
-    color: #fff;
-    font-size: 16px;
-    text-transform: capitalize!important;
-    padding: 0px 8px;
-    font-weight: 300!important;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -ms-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;
-}
-
-.site-header .navbar-right > ul > li > a {
-    padding: 0 10px;
-}
-
-.site-header li.active a, .site-header li a:hover {
-    color: #5aaddd !important;
-}
-
-.site-header li a:hover, .site-header li a:active, .site-header li a:visited {
-    background-color: transparent !important;
-}
-
-.site-header nav ul {
-    margin-bottom: 5px;
-    padding-top: 10px;
-}
-
-.container {
-    margin: auto;
-    padding: 0 20px;
-}*/
-
-
-
 header {
     background: url(../img/header.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -145,18 +87,6 @@ header .intro-text .skills {
     border-color: #333;
 }
 
-/*a {
-    outline: 0;
-    color: #34495e;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: #34495e !important;
-}*/
-
 h1,
 h2,
 h3,
@@ -167,8 +97,6 @@ h6 {
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 700;
 }
-
-
 
 hr,
 hr.star-light,
@@ -205,7 +133,7 @@ hr.star-light:after {
 
 hr.star-light-2:after {
     color: #fff;
-    background-color: #5aaddd;
+    background-color: #425d77;
 }
 
 hr.star-primary {
@@ -227,7 +155,7 @@ section h2 {
 }
 
 section.light {
-    color: #34495e;
+    color: #555;
     background: #fff;
 }
 
@@ -238,7 +166,11 @@ section.dark-blue {
 
 section.light-blue {
     color: #fff;
-    background: #5aaddd; 
+    background: #425d77; 
+}
+
+section.light h2 {
+    color: #555;
 }
 
 .btn-primary {
