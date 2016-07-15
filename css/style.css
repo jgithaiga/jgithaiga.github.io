@@ -10,7 +10,7 @@ body {
     font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.site-header {
+/*.site-header {
     color: #fff;
 }
 
@@ -18,7 +18,7 @@ body {
     color: #fff;
 }
 
-.site-header nav {
+nav.site-header {
     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0!important;
     padding: 20px;
     display: flex;
@@ -64,7 +64,7 @@ body {
 .container {
     margin: auto;
     padding: 0 20px;
-}
+}*/
 
 
 
@@ -140,8 +140,12 @@ header .intro-text .skills {
     }
 }
 
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+}
 
-a {
+/*a {
     outline: 0;
     color: #34495e;
 }
@@ -151,7 +155,7 @@ a:focus,
 a:active,
 a.active {
     color: #34495e !important;
-}
+}*/
 
 h1,
 h2,
