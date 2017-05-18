@@ -82,6 +82,12 @@ header .intro-text .skills {
     }
 }
 
+.navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
 .navbar-inverse {
     background-color: #333;
     border-color: #333;

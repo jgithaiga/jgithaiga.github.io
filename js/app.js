@@ -22,6 +22,8 @@ $(function() {
     }).on("blur", ".floating-label-form-group", function() {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
+    
+    $("#footer-date").text(new Date().getFullYear());
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
