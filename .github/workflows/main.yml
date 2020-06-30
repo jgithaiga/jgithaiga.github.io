@@ -27,7 +27,6 @@ jobs:
       with:
         # The directory where your static site outputs its build to
         build-directory: build/ # optional, default is 
-
         # CLI flags to pass to `percy snapshot`
 #         flags: # optional, default is 
 #         # The working directory which the commands should be executed in
@@ -36,3 +35,5 @@ jobs:
 #         silence: # optional
 #         # Enable verbose logging
 #         verbose: # optional
+      env:
+          PERCY_TOKEN: ${{secrets.PERCY_TOKEN}}
