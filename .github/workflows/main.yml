@@ -24,10 +24,10 @@ jobs:
 
     - name: Percy for Static Sites
       uses: percy/snapshot-action@v0.1.1
-      with:
-        # The directory where your static site outputs its build to
-        build-directory: build/ # optional, default is 
-        # CLI flags to pass to `percy snapshot`
+#       with:
+#         # The directory where your static site outputs its build to
+#         build-directory: # optional, default is 
+#         # CLI flags to pass to `percy snapshot`
 #         flags: # optional, default is 
 #         # The working directory which the commands should be executed in
 #         working-directory: # optional, default is ./
