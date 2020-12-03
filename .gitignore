@@ -1,0 +1,25 @@
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.dccache
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore private/secret files
+*.der
+*.key
+*.pem
+
+# other
+node_modules/
+/bower_components
+*.log
