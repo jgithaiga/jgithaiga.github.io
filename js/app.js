@@ -4,9 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-$(function() {
+$(function () {
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('body').on('click', '.page-scroll a', function(event) {
+    $('body').on('click', '.page-scroll a', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -15,14 +15,14 @@ $(function() {
     });
 
     // Floating label headings for the contact form
-    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-        $(this).toggleClass("floating-label-form-group-with-value", !! $(e.target).val());
-    }).on("focus", ".floating-label-form-group", function() {
+    $("body").on("input propertychange", ".floating-label-form-group", function (e) {
+        $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
+    }).on("focus", ".floating-label-form-group", function () {
         $(this).addClass("floating-label-form-group-with-focus");
-    }).on("blur", ".floating-label-form-group", function() {
+    }).on("blur", ".floating-label-form-group", function () {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
-    
+
     $("#footer-date").text(new Date().getFullYear());
 
     // Initialize WOW.js Scrolling Animations
@@ -35,18 +35,18 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+$('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });
 
-$(function() {
+$(function () {
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
+        submitError: function ($form, event, errors) {
             // additional error messages or events
         },
-        submitSuccess: function($form, event) {
+        submitSuccess: function ($form, event) {
             // Prevent spam click and default submit behaviour
             $("#btnSubmit").attr("disabled", true);
             event.preventDefault();
@@ -65,7 +65,7 @@ $(function() {
                 url: "https://formspree.io/xnqggplk",
                 type: "POST", dataType: "json",
                 data: { name: name, phone: phone, email: email, message: message },
-                success: function() {
+                success: function () {
                     // Enable button & show success message
                     $("#btnSubmit").attr("disabled", false);
                     $('#success').html("<div class='alert alert-success'>");
@@ -75,7 +75,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() { // Fail message
+                error: function () { // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
@@ -85,18 +85,18 @@ $(function() {
                 },
             })
         },
-        filter: function() {
+        filter: function () {
             return $(this).is(":visible");
         },
     });
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+    $("a[data-toggle=\"tab\"]").click(function (e) {
         e.preventDefault();
         $(this).tab("show");
     });
 });
 
 // When clicking on Full hide fail/success boxes
-$('#name').focus(function() {
+$('#name').focus(function () {
     $('#success').html('');
 });
