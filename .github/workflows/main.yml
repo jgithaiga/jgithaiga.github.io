@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Percy for Static Sites
-      uses: percy/snapshot-action@v0.1.1
+      uses: percy/snapshot-action@v0.1.2
 #       with:
 #         # The directory where your static site outputs its build to
 #         build-directory: # optional, default is 
