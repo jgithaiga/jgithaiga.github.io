@@ -31,7 +31,7 @@ const Carousel = () => {
             </div>
             <div className="m-10 md:m-auto">
               <div className="avatar">
-                <div className="mb-8 rounded-btn w-72">
+                <div className="mb-8 rounded-btn w-80 ring ring-primary ring-offset-2">
                   <StaticImage
                     src="../images/profile-photo.jpg"
                     alt="profile image"

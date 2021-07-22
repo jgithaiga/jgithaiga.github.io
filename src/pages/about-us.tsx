@@ -24,7 +24,7 @@ const AboutPage = () => (
           </div>
           <div className="w-full sm:w-1/2 p-6 mt-6">
             <div className="avatar">
-              <div className="mb-8 rounded-btn w-72">
+              <div className="mb-8 rounded-btn w-80 ring ring-accent ring-offset-2">
                 <StaticImage
                   src="../images/profile-photo.jpg"
                   alt="profile image"
