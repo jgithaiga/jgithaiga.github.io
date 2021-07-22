@@ -1,0 +1,41 @@
+import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const AboutPage = () => (
+  <Layout pageTitle="About Me">
+    <SEO title="About Me" />
+
+    <section className="bg-white text-neutral border-b py-8">
+      <div className="container max-w-5xl mx-auto mt-5">
+        <div className="flex flex-wrap">
+          <div className="w-5/6 sm:w-1/2 p-6">
+            <h3 className="text-3xl font-bold leading-none">Introduction</h3>
+            <p className="mt-5">
+                Julius Githaiga a fullstack software developer from Nairobi, Kenya. 
+                His preferred software solutions stack is Flutter, Firebase/Firestore, NodeJS, and Angular (or ReactJS). 
+                He also has proficiency working with Java, Groovy/Grails, Android, NativeScript, MYSQL, 
+                PostgreSQL, NoSQL (MongoDB and CouchDB), BigQuery, JavaScript, JQuery, JSON, and XML. 
+                He has also integrated several external APIs such as Safaricom, Twilio, Stripe, Cheddargetter, etc.
+            </p>
+            <p className="mt-5">Julius Githaiga studied BSc. Computer Science at Kenyatta University.</p>
+          </div>
+          <div className="w-full sm:w-1/2 p-6 mt-6">
+            <div className="avatar">
+              <div className="mb-8 rounded-btn w-72">
+                <StaticImage
+                  src="../images/profile-photo.jpg"
+                  alt="profile image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </Layout>
+)
+
+export default AboutPage
