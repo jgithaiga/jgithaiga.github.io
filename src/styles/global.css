@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .flex-force {
+    display: flex !important;
+  }
+}
+
+@layer components {
+  body {
+    @apply leading-normal tracking-normal text-white bg-primary;
+  }
+
+  nav .nav-link {
+    @apply inline-block btn btn-ghost btn-sm btn rounded-btn text-gray-100 hover:text-white; 
+  }
+
+  nav.bg-white .nav-link {
+    @apply inline-block btn btn-ghost btn-sm rounded-btn hover:text-primary; 
+  }
+
+  nav .nav-link.active {
+    @apply text-white border-white; 
+  }
+
+  nav.bg-white .nav-link.active {
+    @apply text-primary border-primary; 
+  }
+  
+
+  .action-button {
+    @apply mx-auto bg-white text-gray-800 py-4 px-8 shadow-lg rounded-full font-bold uppercase hover:bg-gray-300;
+  }
+
+  section.bg-white a {
+    @apply text-primary underline;
+  }
+}
+
+/* Values are HSL (hue, saturation, lightness) */
+:root {
+  --p: 199 92% 25%;   /* Primary color: #094e6e */ 
+  --pf: 199 92% 15%;  /* Primary color - focused */
+  --pc: 0 0% 100%;    /* Foreground content color to use on primary color */
+
+  --s: 350 75% 54%;   /* Secondary color */
+  --sf: 350 75% 44%;  /* Secondary color - focused */
+  --sc: 0 0% 100%;    /* Foreground content color to use on secondary color */
+
+  --a: 208 13% 44%;   /* Accent color */
+  --af: 208 13% 34%;  /* Accent color - focused */
+  --ac: 0 0% 100%;    /* Foreground content color to use on accent color */
+
+  --n: 215 28% 17%;   /* Neutral color */
+  --nf: 221 39% 11%;  /* Neutral color - focused */
+  --nc: 0 0% 100%;    /* Foreground content color to use on neutral color */
+
+  --b1: 0 0% 100%;    /* Base color of page, used for blank backgrounds */
+  --b2: 210 20% 98%;  /* Base color, a little darker */
+  --b3: 216 12% 84%;  /* Base color, even more darker */
+  --bc: 215 28% 17%;  /* Foreground content color to use on base color */
+
+  --in: 188 78% 41%;  /* Info */
+  --su: 134 61% 41%;  /* Success */
+  --wa: 45 100% 51%;  /* Warning */
+  --er: 354 70% 54%;  /* Error */
+
+  --rounded-box: 1rem; /* border-radius for cards and other big elements */
+  --rounded-btn: 0.5rem; /* border-radius for buttons and similar elements */
+  --rounded-badge: 9999px; /* border-radius for badge and other small elements */
+
+  --animation-btn: 0.25s; /* bounce animation time for button */
+  --animation-input: .4s; /* bounce animation time for checkbox, toggle, etc */
+
+  --padding-card: 2rem; /* default card-body padding */
+
+  --btn-text-case: uppercase; /* default text case for buttons */
+  --navbar-padding: .5rem; /* default padding for navbar */
+  --border-btn: 1px; /* default border size for button */
+  --focus-ring: 2px; /* focus ring size for button and inputs */
+  --focus-ring-offset: 2px; /* focus ring offset size for button and inputs */
+}
+
+[data-theme='dark'] {
+  --b1: 219 14% 28%;
+  --b2: 222 13% 19%;
+  --b3: 223 14% 10%;
+  --bc: 228 14% 93%;
+
+  --n: 222 13% 19%%;
+  --nf: 223 14% 10%%;
+  --nc: 0 0% 100%%;
+
+  --p: 259 94% 61%;
+  --pf: 259 94% 51%;
+}
