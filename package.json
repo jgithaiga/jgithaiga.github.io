@@ -1,7 +1,7 @@
 {
-  "name": "third-river-website",
-  "description": "Third River Solutions company website using Gatsby",
-  "author": "Third River Team<team@thirdriver.io>",
+  "name": "julius-guthaiga-website",
+  "description": "Julius Githaiga website using Gatsby",
+  "author": "Julius Githaiga<julius@thirdriver.io>",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -34,12 +34,12 @@
     "tailwindcss": "^2.2.6"
   },
   "keywords": [
-    "third river solutions",
-    "software"
+    "julius githaiga",
+    "software developer"
   ],
-  "license": "0BSD",
+  "license": "UNLICENSED",
   "scripts": {
-    "build": "gatsby build && cp CNAME public",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
@@ -50,6 +50,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thirdriversolutions/thirdriversolutions.github.io.git"
+    "url": "https://github.com/jgithaiga/jgithaiga.github.io.git"
   }
 }
