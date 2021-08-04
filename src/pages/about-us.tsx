@@ -14,11 +14,11 @@ const AboutPage = () => (
           <div className="w-5/6 sm:w-1/2 p-6">
             <h3 className="text-3xl font-bold leading-none">Introduction</h3>
             <p className="mt-5">
-                Julius Githaiga a fullstack software developer from Nairobi, Kenya. 
+                Julius Githaiga is a fullstack software developer from Nairobi, Kenya. 
                 His preferred software solutions stack is Flutter, Firebase/Firestore, NodeJS, and Angular (or ReactJS). 
                 He also has proficiency working with Java, Groovy/Grails, Android, NativeScript, MYSQL, 
                 PostgreSQL, NoSQL (MongoDB and CouchDB), BigQuery, JavaScript, JQuery, JSON, and XML. 
-                He has also integrated several external APIs such as Safaricom, Twilio, Stripe, Cheddargetter, etc.
+                Furthermore, he has integrated several external APIs such as Safaricom, Twilio, Stripe, Cheddargetter, etc.
             </p>
             <p className="mt-5">Julius Githaiga studied BSc. Computer Science at Kenyatta University.</p>
           </div>
