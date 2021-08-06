@@ -80,7 +80,7 @@ const Carousel = () => {
             </div>
             <div className="m-10 md:m-auto">
               <StaticImage
-                src="../images/undraw_Mobile_apps.svg"
+                src="../images/undraw_App_wireframe.svg"
                 alt="software consulting image"
                 quality={95}
               />
