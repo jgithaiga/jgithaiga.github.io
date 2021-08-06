@@ -64,9 +64,6 @@ const Header = ({ siteTitle }) => {
                 <Link to="/" className="nav-link" activeClassName="active">Home</Link>
               </li> */}
               <li className="mr-3 mt-5 sm:mt-0">
-                <Link to="/about-us" className="nav-link w-full" activeClassName="active">About</Link>
-              </li>   
-              <li className="mr-3 mt-5 sm:mt-0">
                 <a href="https://www.thirdriver.io/our-services" className="nav-link w-full">Services</a>
               </li> 
               <li className="mr-3 mt-5 sm:mt-0">
