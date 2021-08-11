@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Julius Githaiga`,
     titleTemplate: `%s | Julius Githaiga`,
-    description: `Julius Githaiga is a full stack software developer and an IT consultant based in Nairobi, Kenya.`,
+    description: `Julius Githaiga is a full stack software developer & IT consultant based in Nairobi, Kenya.`,
     keywords: `julius githaiga, full stack, software development, mobile applications, web applications, kenya, nairobi`,
     author: `Julius Githaiga<julius@thirdriver.io>`,
     siteUrl: `https://jgithaiga.github.io`,
