@@ -36,19 +36,3 @@ jobs:
       with:
         publish_dir: ./public
         github_token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Percy for Static Sites
-      uses: percy/snapshot-action@v0.1.2
-#       with:
-#         # The directory where your static site outputs its build to
-#         build-directory: # optional, default is 
-#         # CLI flags to pass to `percy snapshot`
-#         flags: # optional, default is 
-#         # The working directory which the commands should be executed in
-#         working-directory: # optional, default is ./
-#         # Silence logging
-#         silence: # optional
-#         # Enable verbose logging
-#         verbose: # optional
-      env:
-          PERCY_TOKEN: ${{secrets.PERCY_TOKEN}}
