@@ -31,11 +31,14 @@ const IndexPage = () => (
             </p>
           </div>
           <div className="w-full sm:w-1/2 p-6 mt-6">
-            <StaticImage
-              src="../images/undraw_programming.svg"
-              alt="software development image"
-              quality={95}
-            />
+            <div className="avatar">
+              <div className="mb-8 rounded-btn w-96 ring ring-primary ring-offset-2">
+                <StaticImage
+                  src="../images/profile-photo.jpg"
+                  alt="profile image"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
