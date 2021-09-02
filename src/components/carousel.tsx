@@ -30,14 +30,11 @@ const Carousel = () => {
               </div>            
             </div>
             <div className="m-10 md:m-auto">
-              <div className="avatar">
-                <div className="mb-8 rounded-btn w-80 ring ring-primary ring-offset-2">
-                  <StaticImage
-                    src="../images/profile-photo.jpg"
-                    alt="profile image"
-                  />
-                </div>
-              </div>              
+              <StaticImage
+                src="../images/undraw_programming.svg"
+                alt="software development image"
+                quality={95}
+              />         
             </div>
           </div>          
         </div>
@@ -50,10 +47,6 @@ const Carousel = () => {
                 I build fast-loading, highly optimized experiences that will work across a wide range of devices. 
                 Responsive design and development is emphasized in every step.
               </p>
-            
-              {/* <div className="mt-10">
-                <a href="https://www.thirdriver.io/our-services" className="action-button">Read More</a>
-              </div>             */}
             </div>
             <div className="m-10 md:m-auto">
               <StaticImage
@@ -73,10 +66,6 @@ const Carousel = () => {
                 I work with my clients to build robust, award-winning cross platform mobile solutions. 
                 The mobile apps I develop work seemslessly on both Android and iOS.
               </p>
-            
-              {/* <div className="mt-10">
-                <a href="https://www.thirdriver.io/our-services" className="action-button">Read More</a>
-              </div>             */}
             </div>
             <div className="m-10 md:m-auto">
               <StaticImage
