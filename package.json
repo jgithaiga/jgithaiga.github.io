@@ -28,7 +28,6 @@
   "devDependencies": {
     "autoprefixer": "10.3.7",
     "gatsby-plugin-postcss": "4.14.0",
-    "npm-check": "5.9.2",
     "postcss": "8.3.9",
     "prettier": "2.4.1",
     "tailwindcss": "2.2.16"
@@ -45,7 +44,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "upgrade-interactive": "npm-check --update",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
