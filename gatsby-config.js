@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Third River Solutions Website`,
-        short_name: `Third River Solutions`,
+        name: `Julius Githaiga Website`,
+        short_name: `Julius Githaiga`,
         start_url: `/`,
         background_color: `#094e6e`,
         theme_color: `#094e6e`,
