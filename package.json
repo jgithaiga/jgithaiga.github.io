@@ -1,5 +1,5 @@
 {
-  "name": "julius-guthaiga-website",
+  "name": "jgithaiga-website",
   "description": "Julius Githaiga website using Gatsby",
   "author": "Julius Githaiga<julius@thirdriver.io>",
   "version": "1.0.0",
@@ -21,7 +21,7 @@
     "prop-types": "15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-helmet": "6.1.0",
+    "react-helmet": "^6.1.0",
     "react-slick": "0.28.1",
     "slick-carousel": "1.8.1"
   },
