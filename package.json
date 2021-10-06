@@ -1,5 +1,5 @@
 {
-  "name": "julius-guthaiga-website",
+  "name": "jgithaiga-website",
   "description": "Julius Githaiga website using Gatsby",
   "author": "Julius Githaiga<julius@thirdriver.io>",
   "version": "1.0.0",
@@ -21,14 +21,13 @@
     "prop-types": "15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-helmet": "6.1.0",
+    "react-helmet": "^6.1.0",
     "react-slick": "0.28.1",
     "slick-carousel": "1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "10.3.7",
     "gatsby-plugin-postcss": "4.14.0",
-    "npm-check": "5.9.2",
     "postcss": "8.3.9",
     "prettier": "2.4.1",
     "tailwindcss": "2.2.16"
@@ -45,7 +44,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "upgrade-interactive": "npm-check --update",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
