@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "@formspree/react": "2.2.4",
-    "daisyui": "1.22.2",
+    "daisyui": "1.25.4",
     "formik": "2.2.9",
     "gatsby": "4.5.2",
     "gatsby-plugin-google-fonts": "1.0.1",
