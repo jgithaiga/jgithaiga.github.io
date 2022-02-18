@@ -3303,6 +3303,14 @@ color-string@^1.6.0:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
 
+color-string@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.9.0.tgz#63b6ebd1bec11999d1df3a79a7569451ac2be8aa"
+  integrity sha512-9Mrz2AQLefkH1UvASKj6v6hj/7eWgjnT/cVsR8CumieLoT+g900exWeNogqtweI8dxloXN9BDQTYro1oWu/5CQ==
+  dependencies:
+    color-name "^1.0.0"
+    simple-swizzle "^0.2.2"
+
 color@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/color/-/color-4.0.1.tgz#21df44cd10245a91b1ccf5ba031609b0e10e7d67"
@@ -3310,6 +3318,14 @@ color@^4.0.1:
   dependencies:
     color-convert "^2.0.1"
     color-string "^1.6.0"
+
+color@^4.2:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/color/-/color-4.2.1.tgz#498aee5fce7fc982606c8875cab080ac0547c884"
+  integrity sha512-MFJr0uY4RvTQUKvPq7dh9grVOTYSFeXja2mBXioCGjnjJoXrAp9jJ1NQTDR73c9nwBSAQiNKloKl5zq9WB9UPw==
+  dependencies:
+    color-convert "^2.0.1"
+    color-string "^1.9.0"
 
 colord@^2.0.1, colord@^2.6:
   version "2.8.0"
@@ -3770,10 +3786,13 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
-daisyui@1.22.2:
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-1.22.2.tgz#4726290da87ec4a742bf7c934c5634c7a7136e96"
-  integrity sha512-uaG7JC2wOEbcZT6mzODlfUjA0XOsCGcmJTda6qhdlYSaPoJDi9u87sfT64Hh8CNA1eeKpCm9xGt2WAWUcwqzIQ==
+daisyui@2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-2.0.9.tgz#c8221f188f6fa72f109a36ecf5bbe05d629a7449"
+  integrity sha512-u1BPV5j4Jt+LIBaF3BFgCh2lYSWId/ReR2pD6WuVuDe03hoV2L4NMKk7HLca+PR8hKi4MWoJpAPDXmAzzgCagw==
+  dependencies:
+    color "^4.2"
+    tailwindcss "^3.0"
 
 damerau-levenshtein@^1.0.7:
   version "1.0.7"
@@ -10044,7 +10063,7 @@ table@^6.0.9:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tailwindcss@3.0.23:
+tailwindcss@3.0.23, tailwindcss@^3.0:
   version "3.0.23"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.0.23.tgz#c620521d53a289650872a66adfcb4129d2200d10"
   integrity sha512-+OZOV9ubyQ6oI2BXEhzw4HrqvgcARY38xv3zKcjnWtMIZstEsXdI9xftd1iB7+RbOnj2HOEzkA0OyB5BaSxPQA==
