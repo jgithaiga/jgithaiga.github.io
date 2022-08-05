@@ -30,7 +30,7 @@
     "gatsby-plugin-postcss": "^5.17.0",
     "postcss": "8.4.14",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "3.1.8"
   },
   "keywords": [
     "julius githaiga",
