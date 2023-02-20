@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@formspree/react": "2.2.5",
+    "@formspree/react": "2.4.1",
     "daisyui": "^2.18.0",
     "formik": "2.2.9",
     "gatsby": "^5.4.0",
